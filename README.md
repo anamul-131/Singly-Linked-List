@@ -70,12 +70,10 @@ int main() {
 
     // Insert 20 at beginning
     struct Node* beginNode = createNode(20);
-
     beginNode->next = head;
     head = beginNode;
 
     printf("After inserting 20 at beginning ");
     displayList(head);
-
     return 0;
 }
