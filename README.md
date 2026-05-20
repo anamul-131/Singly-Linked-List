@@ -1,5 +1,7 @@
 # Singly-Linked-List
-Academic Practice
+Academic Practice 
+
+/* a singly linked list containing the elements 30, 40, 50, and 60. Insert 70 in the middle of the list, delete the node containing 60, and finally insert 20 at the beginning of the linked list */
 
 
 #include <stdio.h>
