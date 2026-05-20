@@ -4,7 +4,6 @@ Academic Practice
 
 #include <stdio.h>
 #include <stdlib.h>
-
 // Creating node structure
 struct Node {
     int data;
@@ -18,8 +17,8 @@ struct Node* createNode(int value) {
     newNode->next = NULL;
     return newNode;
 }
-
 // Function to print linked list
+
 void displayList(struct Node* head) {
     struct Node* temp = head;
 
